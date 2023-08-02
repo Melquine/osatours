@@ -1,0 +1,12 @@
+.about h1 {
+    color: #1FD45C;
+    font-size: 35px;
+}
+.about-image {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+.about img {
+    width: 100%;
+}

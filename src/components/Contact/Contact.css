@@ -1,0 +1,40 @@
+.needs-validation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.needs-validation button {
+    width: 150px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact h1 {
+    color: #1FD45C;
+    font-size: 35px;
+}
+
+.send-btn {
+    width: 150px;
+}
+
+.contact-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-img img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 575px) {
+    .contact-img img {
+        margin-top: 0;
+    }
+}

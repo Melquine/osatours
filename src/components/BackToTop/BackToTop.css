@@ -1,0 +1,23 @@
+.backToTop {
+    bottom: 20px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    background-color: tomato;
+}
+
+.backToTop__button {
+    position: fixed;
+    bottom: 20px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #1FD45C;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+    margin-right: 10px;
+
+}

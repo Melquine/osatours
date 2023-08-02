@@ -1,0 +1,68 @@
+:root {
+    --bg: #1d1f20;
+    --text-color: #1FD45C;
+    --caret-color: whitesmoke;
+    --text-length: 10;
+    --animation-time: 4s;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.typing {
+    font-family: 'Inconsolata', Consolas, monospace;
+    width: fit-content;
+	color: var(--text-color);
+    text-align: left;
+
+}
+.typing {
+    position: relative;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: var(--bg);
+    background: var(--caret-color);
+    animation: typing 2.5s steps(var(--text-length)) forwards,
+      caret 1s infinite;
+  }  
+
+  @keyframes typing {
+      to { width: 0 }
+  }
+  @keyframes caret {
+      50% { color: transparent }
+  }
+
+.guides {
+    margin-top: 30px;
+}
+
+.card-body a {
+    background-color: #1FD45C;
+    border-color: #1FD45C;
+}
+
+.card-body a:hover {
+    background-color: #1FD45C;
+    border-color: #1FD45C;
+}
+
+@media screen and (max-width: 992px) {
+    .row  {
+        justify-content: flex-start;
+    }
+}

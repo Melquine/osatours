@@ -1,0 +1,87 @@
+:root {
+    --bg: #1d1f20;
+    --text-color: #1FD45C;
+    --caret-color: whitesmoke;
+    --text-length: 9;
+    --animation-time: 4s;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.typing {
+    font-family: 'Inconsolata', Consolas, monospace;
+    width: fit-content;
+	color: var(--text-color);
+    text-align: left;
+}
+
+.typing {
+    position: relative;
+}
+
+.typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: var(--bg);
+    background: var(--caret-color);
+    animation: typing var(--animation-time) steps(var(--text-length)) forwards,
+    caret 1s infinite;
+  }  
+
+  @keyframes typing {
+      to { width: 0 }
+  }
+  
+  @keyframes caret {
+      50% { color: transparent }
+  }
+
+.tours {
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+}
+
+.into {
+    margin-top: 20px;
+}
+
+.intro-img {
+    max-height: 500px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: gainsboro !important;
+}
+
+.card {
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 48px 100px 0px rgba(17, 12, 46, 0.15);
+}
+
+.text-cont {
+    box-shadow: rgba(199, 200, 204, 0.15) 0px 10px 20px -2px;
+    margin-bottom: 30px;
+}
+
+.text-cont h1 {
+    font-size: 35px;
+}

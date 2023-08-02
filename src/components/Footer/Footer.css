@@ -1,0 +1,136 @@
+footer {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: .1a1a1a;
+    background-color: whitesmoke;
+
+    margin-top: 50px;
+    border-top: 1px solid gainsboro;
+
+}
+
+.footer-container {
+    padding: 70px;
+}
+
+.section__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 20px auto;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.section__card .card__link {
+    margin: 10px 0;
+    font-size: 14px;
+    width: fit-content;
+    text-decoration: none;
+    color: #1a1a1a !important;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 50px;
+}
+
+.section__card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__card form input {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.newsletter form input[type="email"] {
+    font-size: 14px;
+    color: .1a1a1a;
+    background-color: whitesmoke;
+    outline: none;
+}
+
+.section__card .card__form .form__button {
+    text-decoration: none;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    color: whitesmoke;
+    background-color: #1FD45C;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section__card--copy {
+    max-width: 100%;
+    text-align: center;
+}
+
+.card__text--copy {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 556px) {
+    .row__section--copy {
+        border-top: 1px solid gainsboro;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .section__card {
+
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .section__card {
+        width: 400px;
+        margin: 20px auto;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .section__card {
+        margin: 20px 0 !important;
+        padding: 20px 0;
+    }
+
+    .section__card--copy {
+        max-width: 100%;
+    }
+
+    .card__img--cards {
+        max-width: 216px;
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section__card,
+    .section__card {
+        border-radius: 0;
+        border: 0;
+    }
+}

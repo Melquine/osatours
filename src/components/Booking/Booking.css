@@ -1,0 +1,11 @@
+.datescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.datescontainer__input {
+    width: 100px;
+    margin: 2px;
+    padding: 8px;
+}

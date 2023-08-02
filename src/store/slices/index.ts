@@ -1,0 +1,1 @@
+export { tourSlice } from './tours.slice'

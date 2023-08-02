@@ -1,0 +1,22 @@
+.container-info {
+    margin-top: 60px;
+}
+.title_description h4 {
+    text-align: center;
+}
+.description p {
+    text-align: center;
+}
+.cont .bi {
+    font-size: 50px !important;
+    color: rgb(49, 175, 49);
+}
+
+.cont {
+    padding: 10px;
+    background-color: gainsboro;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

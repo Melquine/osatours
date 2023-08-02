@@ -1,0 +1,27 @@
+.maps {
+    margin-top: 100px;
+}
+
+:root {
+    --bg: #1d1f20;
+    --text-color: #1FD45C;
+    --caret-color: whitesmoke;
+    --text-length: 8;
+    --animation-time: 4s;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (min-width: 576px) {
+    .maps iframe {
+        height: 450px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .maps iframe {
+        height: 600px;
+    }
+}
